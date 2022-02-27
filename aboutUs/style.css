@@ -1,0 +1,47 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/aboutUs/Profil\ foto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.7);
+    color: whitesmoke;
+    min-width: 40vw;
+    min-height: 30vh;
+    padding: 10px;
+}
+
+.box{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.btn{
+    margin-top: 20px;
+    background-color: whitesmoke;
+    color: black;
+    width: 180px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    color: whitesmoke;
+    background: none;
+    border: 1px solid whitesmoke;
+}

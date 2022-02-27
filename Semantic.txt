@@ -1,0 +1,2 @@
+HTML 5 ile gelen bazı iş kolaylaştıran tagler <> içinde header, nav, aside, footer, section ve article'dır.
+Herbirini için ayrı divler yazmak yerine böyle yapmak kolaylık sağlar.

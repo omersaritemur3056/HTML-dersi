@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.searchMain{
+    background-color: darkolivegreen;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.tboxSearch{
+    float: left;
+    background: none;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    font-size: 16px;
+    width: 0;
+    transition: 1s;
+}
+
+.buttonSearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 16px;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.searchMain:hover > .tboxSearch{
+    width: 200px;
+}

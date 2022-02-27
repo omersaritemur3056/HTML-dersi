@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url(/Navbar/üç\ yavru.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    height: 8vh;
+    width: 100%;
+    background-color: #222222;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h2{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: #c83520;
+
+}
+
+h2:hover{
+    color: #c83520;
+}
