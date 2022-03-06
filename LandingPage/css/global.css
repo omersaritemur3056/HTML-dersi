@@ -1,0 +1,92 @@
+/* genel yapıları buraya yazarız mesela her yerde olan h1 p gibi... */
+
+/* text */
+
+.text-center{
+    text-align: center;
+}
+
+.heading-small{
+    font-size: 1.25rem;
+}
+
+.heading-medium{
+    font-size: 1.5rem;
+}
+
+.heading-big{
+    font-size: 1.75rem;
+}
+
+
+/* Colors */
+
+.bg-dark-blue{
+    background: #062e51;
+}
+
+.bg-light-blue{
+    background: #336ea2;
+}
+
+
+/* Buttons bu örnek şablonumuzu home kısmındaki a'dan ilham alarak çektik */
+
+.btn{
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.7px;
+}
+
+.btn-primary{
+    background: #336ea2;
+}
+
+.btn-primary:hover{
+    color: #336ea2;
+    background: lightgray;
+    border: 0.5px solid #336ea2;
+}
+
+.btn-dark{
+    background: #062e51;
+}
+
+.btn-dark:hover{
+    color: #062e51;
+    background: lightgray;
+    border: 0.5px solid #062e51;
+}
+
+.btn-block{
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Forms */
+
+.form-group{
+    padding: 0.25rem 0;
+}
+
+.form-group label{
+    display: block;
+}
+
+.form-control{
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    resize: none; /* textarea kısmını hareketsiz bırakır */
+    border-radius: 6px;
+}
+
+
+/* Container */
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
